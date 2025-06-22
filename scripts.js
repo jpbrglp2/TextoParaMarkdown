@@ -19,7 +19,7 @@ function Submeter() {
         switch (select.value) {
             case "titulo":
                 let titulo = document.createElement('p');
-                titulo.innerHTML = "#" + input;
+                titulo.innerHTML = "# " + input;
                 space.appendChild(titulo);
                 let h1 = document.createElement('h1');
                 h1.innerHTML = input;
@@ -27,7 +27,7 @@ function Submeter() {
                 break;
             case "subtitulo":
                 let subtitulo = document.createElement('p');
-                subtitulo.innerHTML = "##" + input;
+                subtitulo.innerHTML = "## " + input;
                 space.appendChild(subtitulo);
                 let h2 = document.createElement('h2');
                 h2.innerHTML = input;
@@ -53,19 +53,19 @@ function Submeter() {
                 break;
             case "ul":
                 let ul = document.createElement('p');
-                ul.innerHTML = "-" + input;
+                ul.innerHTML = "- " + input;
                 space.appendChild(ul);
                 let ulPreview = document.createElement('ul');
-                ulPreview.innerHTML = "." + input;
+                ulPreview.innerHTML = ". " + input;
                 preview.appendChild(ulPreview);
                 break;
             case "ol":
                 contador++;
                 let ol = document.createElement('p');
-                ol.innerHTML = contador + "." + input;
+                ol.innerHTML = contador + ". " + input;
                 space.appendChild(ol);
                 let olPreview = document.createElement('ol');
-                olPreview.innerHTML = contador + "." + input;
+                olPreview.innerHTML = contador + ". " + input;
                 preview.appendChild(olPreview)
                 break;
         }
