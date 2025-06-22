@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  color: black;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+#ok {
+  min-height: 150px;
+  background-color: #e6f2ff;
+  border: 1px dashed #66b2ff;
+}
+
+#preview {
+  background-color: #e9f5ff;
+  border: 2px solid #cce7ff;
+  color: black;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
