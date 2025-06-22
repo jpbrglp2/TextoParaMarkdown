@@ -15,3 +15,5 @@ basicamente um algoritimo que converte textos simples em markdown
 2. Abra o index.html
 
 3. Seja feliz
+## Deploy: 
+https://jpbrglp2.github.io/TextoParaMarkdown/
